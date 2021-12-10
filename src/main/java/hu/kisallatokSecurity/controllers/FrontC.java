@@ -13,4 +13,8 @@ public class FrontC {
     public String pictures(){
         return "pictures";
     }
+    @GetMapping("/admin")
+    public String admin(){
+        return "admin";
+    }
 }
